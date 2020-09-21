@@ -58,8 +58,10 @@ https://bookdown.org/yihui/blogdown/ （关于blogdown的book）
 
 有一些可以参考的博客：
 
-https://pzhao.org/zh/\
-https://yufree.cn/\
+https://pzhao.org/zh/                                              
+
+https://yufree.cn/                                                            
+
 https://yihui.org/
 
 
