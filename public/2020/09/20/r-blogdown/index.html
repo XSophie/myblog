@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.75.1" />
+
+
+<title>关于r-blogdown - Time Poet in ![微信公众号](/xshen.sophie/config_files/WeChat Image_20200920175056.jpg)![](/xshen.sophie/config_files/WeChat Image_20200920175047.jpg)Sophie&#39;s Cabin</title>
+<meta property="og:title" content="关于r-blogdown - Time Poet in ![微信公众号](/xshen.sophie/config_files/WeChat Image_20200920175056.jpg)![](/xshen.sophie/config_files/WeChat Image_20200920175047.jpg)Sophie&#39;s Cabin">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/Sophie.jpg"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="https://github.com/XSophie">GitHub</a></li>
+    
+    <li><a href="https://www.linkedin.com/in/xshen1314/">Linkedin</a></li>
+    
+    <li><a href="https://twitter.com/XsSophie">Twitter</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">关于r-blogdown</h1>
+
+    
+    <span class="article-date">2020-09-20</span>
+    
+
+    <div class="article-content">
+      <p>这是本博客的第一篇文章。</p>
+<p>这个博客通过R下的blogdown包创建，也算是我在Rmarkdown应用下的一个探索和练习。所以第一篇文章也顺便把这两天的发现总结一下。</p>
+<p>首先要说明的是，R markdown下面有很多有用的包，可以实现写作、编程、发表一体化。开发者是大神谢益辉，愿景就是使写作者集中在文字创作上，画图和排版等重复的工作可以通过代码助力完成。我这两天发现大概试了试，发现确实很好用。</p>
+<p>这些包运行的平台是在rmarkdown下，所以需要基本的rmarkdown，knitr和tinytex.</p>
+<p>在这里总结的包是以下三个：</p>
+<ol>
+<li>rticles</li>
+</ol>
+<p>这个包里含有很多学术期刊的模板，可以直接加载模板在markdown里写文章。我最近正在用这个包，这样可以将自己的R代码插进文章里，这样修改代码生成新的图片后，就不需要输出再替换word里的图片，减少了很多繁琐的格式整理的工作。</p>
+<p>相关的一些书籍和有用的网站：</p>
+<p>github: <a href="https://github.com/rstudio/rticles">https://github.com/rstudio/rticles</a>
+R Markdown Cook: <a href="https://bookdown.org/yihui/rmarkdown-cookbook/">https://bookdown.org/yihui/rmarkdown-cookbook/</a>
+rmarkdown: <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a>
+<a href="https://vickysteeves.gitlab.io/repro-papers/r-markdown-in-reproducible-research.html">https://vickysteeves.gitlab.io/repro-papers/r-markdown-in-reproducible-research.html</a></p>
+<ol start="2">
+<li>Bookdown</li>
+</ol>
+<p>我也加载了bookdown，也就是说可以在R上整理书了。除了写作技术类书籍之外，我还看到了一些比较好的利用bookdown做技术类学习笔记的案例。所以自己之后的实践就是将数据类或者新技术类学习的内容，利用bookdown整理出来。</p>
+<p>下面是一些有用的链接：</p>
+<p>bookdown制作发布的案例：https://bookdown.org/
+bookdown使用指南：https://bookdown.org/yihui/bookdown/ (by yihui Xie)
+bookdown使用指南(pdf)：https://bookdown.org/yihui/bookdown/bookdown.pdf
+RPubs: <a href="https://rpubs.com/">https://rpubs.com/</a> (rmarkdown发布的一些文档)
+<a href="https://blog.datascienceheroes.com/how-to-self-publish-a-book/">https://blog.datascienceheroes.com/how-to-self-publish-a-book/</a>
+RStudio的Youtube Channel: <a href="https://www.youtube.com/channel/UC3xfbCMLCw1Hh4dWop3XtHg">https://www.youtube.com/channel/UC3xfbCMLCw1Hh4dWop3XtHg</a> (这里有很多新的包的training和介绍，值得长期关注动态)</p>
+<ol start="3">
+<li>Blogdown</li>
+</ol>
+<p>这个博客我就是用blogdown完成的。熟悉markdown的人用blogdown也会简单很多。操作和bookdown很类似，也是加载这个library后，建立一个新project,选择website Blog,就等于启动了blogdown.</p>
+<p>以下也是相关的一些内容。</p>
+<p><a href="https://www.youtube.com/watch?v=CjTLN-FXiFA">https://www.youtube.com/watch?v=CjTLN-FXiFA</a> （这个视频有助于入门）
+<a href="https://www.youtube.com/watch?v=-9uuyJzWzCI">https://www.youtube.com/watch?v=-9uuyJzWzCI</a> （了解如何发布blog网站）
+<a href="https://bookdown.org/yihui/blogdown/">https://bookdown.org/yihui/blogdown/</a> （关于blogdown的book）</p>
+<p>现在我的了解就是掌握了这三个包，基本上可以在rmarkdown上面实现写文章、写书和写博客了。当然我还了解到也可以在R里面实现记者写报道的功能（尤其是涉及到数据的一些报道），我现在还没有探索这方面。</p>
+<p>总之，Rmarkdown功能非常的强大，感觉有助于实现很好的知识管理和写作产出。</p>
+<p>有一些可以参考的博客：
+<a href="https://pzhao.org/zh/">https://pzhao.org/zh/</a>
+<a href="https://yufree.cn/">https://yufree.cn/</a>
+<a href="https://yihui.org/">https://yihui.org/</a></p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+  </body>
+</html>
+
