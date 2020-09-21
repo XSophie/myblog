@@ -15,7 +15,8 @@ __我是一个水环境研究工作者，环保行动者以及自然写作者。
 
 * As a nature writer, I keep writing and reading habits， trying to delineate the nature's beauty and explore the inner connection between us and nature to inspire my readers to protection our Nature Mother. 
 
->My blog link: https://xsophie.netlify.app/\
+> My blog link: https://xsophie.netlify.app/
+
 > 我的个人微信公众号“时光在写诗”
 
 ![](/Fig/scan.jpg)
