@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Time Poet in ![微信公众号](/xshen.sophie/config_files/WeChat Image_20200920175056.jpg)![](/xshen.sophie/config_files/WeChat Image_20200920175047.jpg)Sophie's Cabin"
+title = "Sophie's Cabin"
 theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
