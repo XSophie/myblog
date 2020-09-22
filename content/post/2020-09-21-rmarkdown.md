@@ -49,7 +49,7 @@ numpy$transpose(x)
 ```{r}
 repl_python()
 import pandas as pd
-pd.rdatta.describe()
+pd.rdata.describe()
 pd.isnull(r.rdata.time)
 exit
 ```
@@ -72,7 +72,7 @@ py_run_string()
 # R与python的数据类型转换
 
 Again，查看博客 https://blog.csdn.net/qq_31342997/article/details/89433255 里面有一些操作的例子，讲解很清晰。
-![](/Fig/20200921.jpg)
+![](/Fig/20200921.png)
 
 # rmarkdown里调用python
 

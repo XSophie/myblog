@@ -20,7 +20,7 @@
 在R中调用Python程序 install.package(&amp;quot;reticulate&amp;quot;)library(retuculate)py_available() #检查系统是否安装过Python##根据所安装的Python环境，选择使用use_condaenv or use_pythonuse_condaenv(&amp;quot;D:/Program Files (X86)/Anaconda3&amp;quot;)use_python(&amp;quot;D:/Program Files (X86)/Anaconda3/python.exe&amp;quot;)py_config() #查看python版本环境和anaconda以及numpy的信息在R中导入python模块 在R下面可以通过import()导入Python模块，这个有区别于Python的import方式。同时访问具体模块下面的函数，需要用$符号，也是R下面的符号，这个和python也有区别。比如：
 import(numpy)numpy$transpose(x)R与Python交互使用 使用repl_python()函数，就可以在R中进入Python的运行环境。使用exit退出python,回到R。其中在python环境下创建的对象，就存储到了py这个变量下面了。回到R环境后，通过查看和处理py，可以继续对数据进行分析。
 同样，在python环境下也可以处理从R中获取的数据。比如说rdata数据集：
-repl_python()import pandas as pdpd.rdatta.describe()pd.isnull(r.rdata.time)exit在R中载入python代码 如果你有一段写好的python代码，也可以直接通过R调用代码函数或者变量。
+repl_python()import pandas as pdpd.rdata.describe()pd.isnull(r.rdata.time)exit在R中载入python代码 如果你有一段写好的python代码，也可以直接通过R调用代码函数或者变量。
 调用python函数.调用之后，可以直接在R环境下使用python代码里定义的函数，在R里完成计算。
 source_python()直接获取python代码里的变量。
 py_run_file(”python代码路径“)py_run_string()R与python的数据类型转换 Again，查看博客 https://blog.csdn.net/qq_31342997/article/details/89433255 里面有一些操作的例子，讲解很清晰。 rmarkdown里调用python 从rmarkdown里调用python就方便很多了，可以通过我们前面的方法实现。比如：
