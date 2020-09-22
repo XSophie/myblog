@@ -2,8 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 title = "Sophie's Cabin"
 theme = "hugo-lithium"
-googleAnalytics = ""
-disqusShortname = ""
+googleAnalytics = "G-ERXJ692Y8L"
+disqusShortname = "xshen_sophie"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [permalinks]
@@ -12,6 +12,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
+[[menu.main]]
+    name = "Publication"
+    url = "/Publication/"
+[[menu.main]]
+    name = "Activities"
+    url = "/Activities/"
 [[menu.main]]
     name = "Linkedin"
     url = "https://www.linkedin.com/in/xshen1314/"
@@ -24,12 +30,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = "A website built through Hugo and blogdow. Focus on building up the data analysis skills and personal growth."
 
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.12.0"
     highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
+    highlightjsLang = ["r", "yaml","markdown"]
     highlightjsTheme = "github"
 
     MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
